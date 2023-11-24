@@ -16,8 +16,6 @@ return new class extends Migration
             $table->string('nome');
             $table->string('uf');
             $table->string('email');
-            $table->dropColumn('site');
-
     });
 
 }
